@@ -1,0 +1,11 @@
+fieldLayouts:
+  6bf302b1-2e14-484c-9cbd-a471afd7908a:
+    tabs:
+      -
+        elementCondition: null
+        name: 'Area Code'
+        uid: 94c4657c-4ab0-4fc0-9c3b-778eb77a4d1d
+        userCondition: null
+handle: phoneNumber
+name: 'Phone Number'
+sortOrder: 1

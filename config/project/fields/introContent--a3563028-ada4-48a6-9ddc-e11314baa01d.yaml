@@ -1,0 +1,19 @@
+columnSuffix: sqpfdcet
+contentColumnType: string(1600)
+fieldGroup: 2cb6eeb7-b3d1-435e-97c8-b91b17bff187 # Article
+handle: introContent
+instructions: 'This is where the intro content for articles goes'
+name: 'Intro Content'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: 400
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: 'Enter your intro content here'
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

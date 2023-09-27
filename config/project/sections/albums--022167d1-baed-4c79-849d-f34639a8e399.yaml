@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: albums
+name: Albums
+propagationMethod: all
+siteSettings:
+  152057f2-ce97-47b4-a01b-8cdb4f1217d7: # tryagain
+    enabledByDefault: true
+    hasUrls: true
+    template: albums/_entry
+    uriFormat: 'albums/{slug}'
+type: channel

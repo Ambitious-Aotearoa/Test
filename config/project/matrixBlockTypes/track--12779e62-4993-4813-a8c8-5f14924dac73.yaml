@@ -1,0 +1,170 @@
+field: 6b3613de-abef-4ba9-9cd1-6e18dfbb2803 # Tracks
+fieldLayouts:
+  d8b2549f-0fed-470b-9791-b27953cc5062:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: aa55049a-5197-4d47-9cb1-4db1deba3131 # Track Name
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0e435511-9ded-482e-902c-44e93ec643f4
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 88fc22b4-c448-46f7-8c9b-5fae89669eb6 # Track Artist
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 52d12632-b607-4b99-9050-36b171e25e63
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f2c4d997-9918-406d-87f4-6f2695211b60 # Track Length
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 827224c3-956d-4317-a3ab-d55479f16032
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 8719d65a-0b25-4b19-8ce4-0adaf7d6ce5e # Album Cover
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e2e94d0a-e602-4961-ab0c-e9866b6063ae
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: aa430416-de7f-43a2-9a35-7ebf072dfbfd
+        userCondition: null
+fields:
+  88fc22b4-c448-46f7-8c9b-5fae89669eb6: # Track Artist
+    columnSuffix: zxacrmmr
+    contentColumnType: text
+    fieldGroup: null
+    handle: trackArtist
+    instructions: null
+    name: 'Track Artist'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  8719d65a-0b25-4b19-8ce4-0adaf7d6ce5e: # Album Cover
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: albumCover
+    instructions: null
+    name: 'Album Cover'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds: null
+      branchLimit: null
+      defaultUploadLocationSource: null
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: null
+      minRelations: null
+      previewMode: full
+      restrictFiles: false
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: null
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  aa55049a-5197-4d47-9cb1-4db1deba3131: # Track Name
+    columnSuffix: dxabnbmr
+    contentColumnType: text
+    fieldGroup: null
+    handle: trackName
+    instructions: null
+    name: 'Track Name'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  f2c4d997-9918-406d-87f4-6f2695211b60: # Track Length
+    columnSuffix: rcjhkvoq
+    contentColumnType: text
+    fieldGroup: null
+    handle: trackLength
+    instructions: null
+    name: 'Track Length'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: track
+name: Track
+sortOrder: 1

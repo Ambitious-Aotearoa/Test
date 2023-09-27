@@ -1,0 +1,8 @@
+name: ddev-deployer-dep
+repository: mandrasch/ddev-deployer-dep
+version: v0.9.1
+install_date: "2023-09-28T10:27:07+13:00"
+project_files:
+    - commands/web/dep
+global_files: []
+removal_actions: []

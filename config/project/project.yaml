@@ -1,0 +1,47 @@
+dateModified: 1694132627
+email:
+  fromEmail: jamie@ambitious.co.nz
+  fromName: tryagain
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    2cb6eeb7-b3d1-435e-97c8-b91b17bff187: Article # Article
+    2e53d9bf-d50d-44fe-ad95-805fc8eee136: Articles # Articles
+    3b678975-4fb5-4a9c-adb5-a8690bd80310: 'Phone Number' # Phone Number
+    4de277ca-9e57-4ef1-adef-e69ee0366f11: 'Album Cover' # Album Cover
+    6b3613de-abef-4ba9-9cd1-6e18dfbb2803: Tracks # Tracks
+    55db656d-e593-45f3-8b41-751b982f9ae3: tryagain # tryagain
+    88fc22b4-c448-46f7-8c9b-5fae89669eb6: 'Track Artist' # Track Artist
+    5710f2e6-23ea-4089-b2d4-56ce83e1c217: Default # Default
+    8719d65a-0b25-4b19-8ce4-0adaf7d6ce5e: 'Album Cover' # Album Cover
+    12779e62-4993-4813-a8c8-5f14924dac73: Track # Track
+    022167d1-baed-4c79-849d-f34639a8e399: Albums # Albums
+    152057f2-ce97-47b4-a01b-8cdb4f1217d7: tryagain # tryagain
+    30580060-a58b-451a-b5cb-7a8f303c35fd: Default # Default
+    97690820-a3b3-4494-8ecf-d187af622d9b: Common # Common
+    a3563028-ada4-48a6-9ddc-e11314baa01d: 'Intro Content' # Intro Content
+    aa55049a-5197-4d47-9cb1-4db1deba3131: 'Track Name' # Track Name
+    b995f631-105e-4801-920c-4638c84eb818: 'Record Image' # Record Image
+    bd2d1f24-37e7-4044-884b-7750b5d11221: Albums # Albums
+    f2c4d997-9918-406d-87f4-6f2695211b60: 'Track Length' # Track Length
+plugins:
+  seo:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.2.0
+  typogrify:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+system:
+  edition: solo
+  live: true
+  name: tryagain
+  schemaVersion: 4.5.3.0
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
